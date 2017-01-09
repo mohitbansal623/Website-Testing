@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+
+.main {
+  width:50%;
+  height:auto;
+  background-color: rgba(200,0,212,0.2);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left:20%;
+  margin-top:3%;
+}
+
+.select_device, .submit {
+  width: 25%;
+  height: 8%;
+  font-family: Courier;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(180,100,100,0.5);
+  border-collapse: collapse;
+  color: white;
+}
+
+.url {
+  width: 35%;
+  height: 5%;
+  margin:auto;
+  padding: 20px;
+  font-family: Courier;	
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.iframe {
+  margin-top: 4%;	
+  visibility: hidden;
+}
+
+.display_url {
+	background-repeat: no-repeat;
+}
